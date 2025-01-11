@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <section class="flex">
-        <div>
-
+  </head>
+  <body class="grid place-content-center min-h-screen font-mono bg-gradient-to-bl from-white to-orange-100 ">
+    <section class="flex bg-white ">
+      <div class="flex flex-col justify-around w-1/2 px-10 py-8 ">
+        <div class="text-center">
+          <h1 class="text-3xl tracking-wide">WELCOME BACK</h1>
+          <p class="tracking-wider text-gray-500 mt-4 ">Welcome back!Please enter your details</p>
         </div>
-        <div>
-
+        <div class="flex flex-col gap-6 ">
+          <div class="" >
+            <label class="font-semibold" for="email">Email</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="Enter your email "
+              class="block border px-2 py-2 mt-2 w-10/12 rounded-lg border-gray-400  placeholder:ps-2"
+            />
+          </div>
+          <div>
+            <label for="password" class="font-semibold">Password</label>
+            <input
+              type="password"
+              name=""
+              id="password"
+              placeholder="Enter your password "
+              class="block border px-2 py-2 mt-2  w-10/12 rounded-lg border-gray-400 placeholder:ps-2"
+            />
+          </div>
         </div>
+        <div class="flex justify-between">
+          <div class="">
+            <input class="" type="checkbox" name="remember-me" id="remember-me" />
+            <label class=" " for="remember-me">Remember me</label>
+          </div>
+          <div>
+            <a href="" class="">Forgot Password</a>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4">
+            <button class="w-full bg-orange-600 text-white py-2 rounded-full">Sign In</button>
+            <button class="w-full bg-white border border-gray-600  py-2 rounded-full">Sign in with Google</button>
+            <p class="text-center">Don't have an account? <a href="" class="text-orange-600">Sign Up for free</a></p>
+        </div>
+      </div>
+      <div class=" ">
+        <img src="/login-component/src/img/c392ba101244345 1.png" alt="">
+      </div>
     </section>
-</body>
+  </body>
 </html>
