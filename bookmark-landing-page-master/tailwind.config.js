@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./build/*.html"],
   theme: {
-    extend: {},
+    fontFamily:{
+      'Rubik':['Rubik']
+    },
+    extend: {
+
+    },
   },
   plugins: [],
 }
