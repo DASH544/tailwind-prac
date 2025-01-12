@@ -13,17 +13,29 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
-<body class="px-6 py-4 font-Rubik">
-  <header class="mx-auto bg-white">
-      <div class="flex justify-between">
+<body class="px-6 py-4 font-Rubik lg:max-w-6xl mx-auto">
+  <header class=" 
+   bg-white relative">
+      <div class="flex justify-between items-center">
         <div><img src="/bookmark-landing-page-master/images/logo-bookmark.svg" alt=""></div>
+        <ul class="hidden sm:flex justify-between items-center gap-4 text-sm ">
+          <li>FEATURES</li>
+          <li>PRICING</li>
+          <li class="">CONTACT</li>
+          <li><button class="text-white bg-orange-500 px-6 py-2 rounded-md">LOGIN</button></li>
+        </ul>
+      </div>
+      <div class="absolute sm:hidden top-2 right-0 ">
+        <img class="cursor-pointer" src="/bookmark-landing-page-master/images/icon-hamburger.svg" alt="">
+      </div>
+      <div>
         <div>
-          <img src="/bookmark-landing-page-master/images/icon-hamburger.svg" alt="">
+          <img src="/bookmark-landing-page-master/images/" alt="">
         </div>
       </div>
   </header>
-  <main class="text-center grid place-items-center mt-6 ">
-    <section class="flex flex-col gap-4">
+  <main class="text-center  mt-6 ">
+    <section class="flex lg:flex-row-reverse flex-col gap-4">
         <div class="grid place-items-center"><img src="/bookmark-landing-page-master/images/illustration-hero.svg" alt=""></div>
         <div class="flex flex-col gap-4">
           <h1 class="text-2xl font-semibold">A Simple Bookmark Manager</h1>
