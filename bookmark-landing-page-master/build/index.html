@@ -1,56 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style/style.css">
-  <title>Frontend Mentor | Bookmark landing page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Frontend Mentor | Bookmark landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-</head>
-<body class="px-6 py-4 font-Rubik lg:max-w-6xl mx-auto">
-  <header class=" 
-   bg-white relative">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="px-6 py-4 font-Rubik lg:max-w-6xl mx-auto">
+    <header class="bg-white relative">
       <div class="flex justify-between items-center">
-        <div><img src="/bookmark-landing-page-master/images/logo-bookmark.svg" alt=""></div>
-        <ul class="hidden sm:flex justify-between items-center gap-4 text-sm ">
+        <div>
+          <img
+            src="/bookmark-landing-page-master/images/logo-bookmark.svg"
+            alt=""
+          />
+        </div>
+        <ul class="hidden sm:flex justify-between items-center gap-4 text-sm">
           <li>FEATURES</li>
           <li>PRICING</li>
           <li class="">CONTACT</li>
-          <li><button class="text-white bg-orange-500 px-6 py-2 rounded-md">LOGIN</button></li>
+          <li>
+            <button class="text-white bg-orange-500 px-6 py-2 rounded-md">
+              LOGIN
+            </button>
+          </li>
         </ul>
       </div>
-      <div class="absolute sm:hidden top-2 right-0 ">
-        <img class="cursor-pointer" src="/bookmark-landing-page-master/images/icon-hamburger.svg" alt="">
+      <div class="absolute sm:hidden top-2 right-0">
+        <img
+          class="cursor-pointer"
+          src="/bookmark-landing-page-master/images/icon-hamburger.svg"
+          alt=""
+        />
       </div>
       <div>
         <div>
-          <img src="/bookmark-landing-page-master/images/" alt="">
+          <img src="/bookmark-landing-page-master/images/" alt="" />
         </div>
       </div>
-  </header>
-  <main class="text-center  mt-6 ">
-    <section class="flex lg:flex-row-reverse flex-col gap-4">
-        <div class="grid place-items-center"><img src="/bookmark-landing-page-master/images/illustration-hero.svg" alt=""></div>
-        <div class="flex flex-col gap-4">
-          <h1 class="text-2xl font-semibold">A Simple Bookmark Manager</h1>
-          <p class="text-gray-500"> A clean and simple interface to organize your favourite websites. Open a new 
-            browser tab and see your sites load instantly. Try it for free.</p>
-            <div class="text-sm ">
-              <button class="px-4 py-3 mr-2 rounded-lg font-semibold text-white bg-blue-600">Get it on Chrome</button>
-              <button class="px-4 py-3 ml-2 rounded-lg font-semibold text-gray-500 bg-gray-100 shadow-xl shadow-gray-400"> Get it on Firefox</button>
-            </div>
+    </header>
+    <main class="text-center grid place-items-center lg:mt-12 mt-6">
+      <section class="flex lg:flex-row-reverse flex-col gap-4 lg:gap-8 relative">
+        <div class="flex justify-center items-center flex-1 z-50">
+          <img
+            src="/bookmark-landing-page-master/images/illustration-hero.svg"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex flex-col lg:text-start gap-4 lg:gap-8 flex-1 lg:items-start justify-center items-center"
+        >
+          <h1 class="text-2xl lg:text-wrap lg:text-5xl font-semibold">
+            A Simple Bookmark Manager
+          </h1>
+          <p class="text-gray-500 text-wrap tracking-wide">
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+          <div class="text-sm">
+            <button
+              class="px-4 py-3 mr-2 rounded-lg font-semibold text-white bg-blue-600"
+            >
+              Get it on Chrome
+            </button>
+            <button
+              class="px-4 py-3 ml-2 rounded-lg font-semibold text-gray-500 bg-gray-100 shadow-xl shadow-gray-400"
+            >
+              Get it on Firefox
+            </button>
+          </div>
+        </div>
+      <!-- <div class="absolute hidden md:block overflow-hidden bg-blue-800 rounded-l-full h-80 top-32 w-2/4 right-0"> -->
+
       </div>
-    </section>
-  </main>
+      </section>
+      <section class="lg:mt-12 mt-6 flex flex-col lg:gap-12 gap-4 ">
+        <div class="grid place-items-center lg:gap-6 gap-4">
+          <h1 class="text-2xl lg:text-3xl font-semibold">Features</h1>
+            <p class="text-center text-wrap w-1/2 text-gray-500 ">
+              Our aim is to make it quick and easy for you to access your
+              favourite websites. Your bookmarks sync between your devices so you
+              can access them on the go.
+            </p>
+        </div>
+        <div class="flex justify-center items-center flex-col lg:flex-row gap-8 lg:gap-0">
+          <div class="">
+            <button class="  py-2 border-t w-full">Simple Bookmarking </button>
+          </div>
+        
+          <div class="">
+            <button class="border-s-0 border-e-0  w-full">Speedy Searching</button>
+          </div>
+          <div class=" ">
+            <button class="lg:pb-4 lg:px-12 py-2 border-t w-full">Easy Sharing</button>
+          </div>
+        </div>
+        <div>
+         
+        </div>
+      </section>
+    </main>
 
-
-  <!-- Features
+    <!-- Features
   Pricing
   Contact
   Login
@@ -64,8 +132,7 @@
 
   Features
 
-  Our aim is to make it quick and easy for you to access your favourite websites. 
-  Your bookmarks sync between your devices so you can access them on the go.
+  
 
   Simple Bookmarking
   Speedy Searching
@@ -157,8 +224,6 @@ Question 3
   Pricing
   Contact 
 -->
-  <footer>
-   
-  </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
