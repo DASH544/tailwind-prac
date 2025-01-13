@@ -22,8 +22,8 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
-  <body class="px-6 py-4 font-Rubik lg:max-w-6xl mx-auto">
-    <header class="bg-white relative">
+  <body class="font-Rubik">
+    <header class="bg-white relative px-6 py-4 font-Rubik lg:max-w-6xl mx-auto">
       <div class="flex justify-between items-center">
         <div>
           <img
@@ -55,7 +55,7 @@
         </div>
       </div>
     </header>
-    <main class="text-center grid place-items-center lg:mt-12 mt-6">
+    <main class="text-center grid place-items-center lg:mt-12 mt-6 px-6 py-4 font-Rubik lg:max-w-6xl mx-auto">
       <section class="flex lg:flex-row-reverse flex-col gap-4 lg:gap-8 relative">
         <div class="flex justify-center items-center flex-1 z-50">
           <img
@@ -94,29 +94,129 @@
       <section class="lg:mt-12 mt-6 flex flex-col lg:gap-12 gap-4 ">
         <div class="grid place-items-center lg:gap-6 gap-4">
           <h1 class="text-2xl lg:text-3xl font-semibold">Features</h1>
-            <p class="text-center text-wrap w-1/2 text-gray-500 ">
+            <p class="text-center text-wrap  text-gray-500  ">
               Our aim is to make it quick and easy for you to access your
               favourite websites. Your bookmarks sync between your devices so you
               can access them on the go.
             </p>
         </div>
-        <div class="flex justify-center items-center flex-col lg:flex-row gap-8 lg:gap-0">
+        <div class="flex justify-center items-center flex-col lg:flex-row gap-8 lg:gap-16">
           <div class="">
-            <button class="  py-2 border-t w-full">Simple Bookmarking </button>
+            <button class="">Simple Bookmarking </button>
           </div>
         
           <div class="">
-            <button class="border-s-0 border-e-0  w-full">Speedy Searching</button>
+            <button class="">Speedy Searching</button>
           </div>
           <div class=" ">
-            <button class="lg:pb-4 lg:px-12 py-2 border-t w-full">Easy Sharing</button>
+            <button class="">Easy Sharing</button>
           </div>
         </div>
-        <div>
-         
+        <div class="lg:flex-row  flex flex-col justify-center items-center mt-8 lg:gap-16 gap-8 lg:mt-12">
+         <div class="flex-1"><img src="/bookmark-landing-page-master/images/illustration-features-tab-1.svg" alt=""></div>
+         <div class="flex flex-col gap-6 flex-1 lg:text-start">
+          <h1 class="text-2xl lg:text-3xl font-semibold ">Bookmark in one click</h1>
+          <p class=" text-gray-500">
+            Organize your bookmarks however you like. Our simple drag-and-drop interface 
+            gives you complete control over how you manage your favourite sites.</p>
+         </div>
+        </div>
+      </section>
+      <section class="mt-12 lg:mt-32 flex flex-col gap-12">
+        <div class="text-center">
+          <h1 class="text-2xl lg:text-wrap lg:text-5xl font-semibold mb-4">  Download the extension</h1>
+          <p class="text-gray-500 text-wrap tracking-wide">  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+            got a favourite you’d like us to prioritize.</p> 
+        </div>
+        <div class="flex flex-col items-center  gap-12 lg:flex-row">
+          <div class="gap-y-10 rounded-md shadow flex flex-1 justify-center items-center w-full flex-col py-6 px-2">
+          <div class="grid place-items-center gap-6">
+            <div class=""><img src="/bookmark-landing-page-master/images/logo-chrome.svg" alt=""></div>
+            <div><h1 class="text-2xl font-semibold">Add to Chrome</h1>
+                <p class="text-gray-500 text-sm tracking-wide">Minimum version 62</p></div>
+          </div>
+          <div class="w-full"><button class="bg-blue-500 text-white w-10/12 px-4 py-2 text-sm rounded-sm ">Add & Install Extension</button></div>
+          </div>
+          <div class="gap-y-10  rounded-md shadow flex flex-1 lg:mt-16 justify-center items-center w-full flex-col py-6 px-2">
+            <div class="grid place-items-center gap-6">
+              <div class=""><img src="/bookmark-landing-page-master/images/logo-firefox.svg" alt=""></div>
+              <div><h1 class="text-2xl font-semibold">Add to Firefox</h1>
+                  <p class="text-gray-500 text-sm tracking-wide">Minimum version 55</p></div>
+            </div>
+            <div class="w-full"><button class="bg-blue-500 text-white w-10/12 px-4 py-2 text-sm rounded-sm">Add & Install Extension</button></div>
+            </div>
+            <div class="gap-y-10  rounded-md shadow flex flex-1  lg:mt-32 justify-center items-center w-full flex-col py-6 px-2">
+              <div class="grid place-items-center gap-6">
+                <div class=""><img src="/bookmark-landing-page-master/images/logo-opera.svg" alt=""></div>
+                <div><h1 class="text-2xl  font-semibold">Add to Opera</h1>
+                    <p class="text-gray-500 text-sm tracking-wide">Minimum version 46</p></div>
+              </div>
+              <div class="w-full"><button class="bg-blue-500 text-white w-10/12 px-4 py-2 rounded-sm text-sm">Add & Install Extension</button></div>
+              </div>
+        </div>
+      </section>
+      <section class="mt-16 lg:mt-32">
+        <div class="flex gap-6 justify-center items-center flex-col">
+          <h1 class="text-2xl lg:text-4xl  font-semibold">Frequently Asked Questions</h1>
+          <p class="text-center w-1/2 text-gray-500 text-sm lg:text-base tracking-wide">Here are some of our FAQs. If you have any other questions you’d like 
+            answered please feel free to email us.</p>
+        </div>
+        <div class="flex flex-col mt-16">
+          <div class="border-t border-solid flex justify-between items-center py-6">
+           <p> What is Bookmark?</p>
+            <button>H</button>
+          </div>
+          <div class="border-t border-solid flex justify-between items-center py-6">
+           <p> How can I request a new browser?</p>
+            <button>H</button>
+          </div>
+          <div class="border-t border-solid flex justify-between items-center py-6">
+           <p> Is there a mobile app?</p>
+            <button>H</button>
+          </div>
+          <div class="border-t border-solid flex justify-between items-center py-6 border-b">
+            <p>What about other Chromium browsers?</p>
+            <button>H</button>
+          </div>
+        </div>
+        <div class="mt-12">
+          <button class="px-4 py-2 bg-blue-600 text-white ">More Info</button>
         </div>
       </section>
     </main>
+    <footer>
+      <section class="bg-blue-600 text-white flex flex-col mt-16 lg:mt-32 w-full text-center px-2 py-8">
+        <div class="grid place-items-center ">
+          <p class="text-sm tracking-wider mt-8">35,000+ already joined</p>
+        <h1 class="mt-8 text-3xl text-wrap w-1/2">Stay up-to-date with what we’re doing</h1>
+        <div class="mt-12">
+          <input class="px-2 py-1" type="text" name="" id="">
+          <button class="px-4 py-1 rounded-sm bg-orange-600">Contact Us</button>
+        </div>
+      </div>
+  
+    </section>
+    <div class=" bg-blue-900  ">
+      <div class="flex justify-between items-center  px-6 py-4 font-Rubik lg:max-w-6xl mx-auto">
+        <div class="">
+        <ul class="text-white flex gap-8 text-sm items-center">
+          <li><img src="/bookmark-landing-page-master/images/logo-bookmark.svg " alt=""></li>
+          <li>FEATURES</li>
+          <li>PRICING</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+      <div class="list-none flex items-center gap-6">
+        <li class=""><img class="w-1/2" src="/bookmark-landing-page-master/images/icon-facebook.svg" alt=""></li>
+        <li><img class="w-1/2" src="/bookmark-landing-page-master/images/icon-twitter.svg" alt=""></li>
+      </div>
+
+    </div>
+      </div>
+      
+    </footer>
+   
+    
 
     <!-- Features
   Pricing
@@ -138,10 +238,8 @@
   Speedy Searching
   Easy Sharing
 
-  Bookmark in one click
+  
 
-  Organize your bookmarks however you like. Our simple drag-and-drop interface 
-  gives you complete control over how you manage your favourite sites.
 
   More Info
 
@@ -159,10 +257,9 @@
 
   More Info
 
-  Download the extension
 
-  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
-  got a favourite you’d like us to prioritize.
+
+
 
   Add to Chrome
   Minimum version 62
@@ -178,8 +275,7 @@
 
   Frequently Asked Questions
   
-  Here are some of our FAQs. If you have any other questions you’d like 
-  answered please feel free to email us.
+  
 
   Question 1
   What is Bookmark?
@@ -189,7 +285,7 @@
   justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
 
  Question 2
-  How can I request a new browser?
+  
 
  Answer 2
   Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
@@ -198,7 +294,7 @@
   Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
 
 Question 3 
-  Is there a mobile app?
+  
 
   <Answer 
   Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
@@ -206,7 +302,7 @@ Question 3
   sollicitudin ex et ultricies bibendum.
 
    Question 4
-  What about other Chromium browsers?
+
 
   Answer 4
   Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
@@ -214,9 +310,9 @@ Question 3
 
   More Info
 
-  35,000+ already joined
 
-  Stay up-to-date with what we’re doing
+
+  
 
   Contact Us
 
@@ -224,6 +320,5 @@ Question 3
   Pricing
   Contact 
 -->
-    <footer></footer>
   </body>
 </html>
