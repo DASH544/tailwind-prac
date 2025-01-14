@@ -11,3 +11,11 @@
         #222222 44.22%
     );
 }
+.blue-hero-grad {
+  background: linear-gradient(
+    97.73deg,
+    #399fd8 -6.96%,
+    #0775b4 23.5%,
+    #003756 92.79%
+  );
+}
