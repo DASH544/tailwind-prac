@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="main" class= "bg-black min-h-screen font-sans text-white scroll-smooth">
+    <header class="sticky top-0">
+<nav class="bg-teal-700  z-10 ">
+    <section class="flex  items-center justify-between max-w-4xl mx-auto p-4  ">
+     <a class="text-white text-3xl font-semibold" href="">&#128640;Acme Rockets</a>
+     <div class="flex">
+        <button id="hamburger-btn" class="md:hidden text-3xl "> &#x2630</button>
+     </div> 
+     <div class="md:flex hidden ">
+        <ul class="md:flex md:gap-6 text-lg  text-white ">
+            <li><a href="#rock">Our Rockets</a></li>
+            <li><a href="#test">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+     </div>
+    </section> 
+</nav>
+ <section id="mobile-section" class="bg-black text-white absolute top-0 w-full hidden origin-top animate-open-menu  flex-col items-center justify-between">
+    <button id="close" class="text-5xl self-end mr-2">&times;</button>
+    <nav class="min-h-screen flex flex-col items-center py-8 list-none gap-10 text-5xl mt-8 z-50">
+        
+            <li class="hover:scale-110 hover:opacity-80  cursor-pointer transition-all" ><a href="#main">Home</a></li>
+            <li class="hover:opacity-80 hover:scale-110  cursor-pointer transition-all" ><a  href="#rock">Rockets</a></li>
+            <li class="hover:opacity-80 hover:scale-110  cursor-pointer transition-all" ><a  href="#test">Testimonials</a></li>
+            <li class="hover:opacity-80 hover:scale-110  cursor-pointer transition-all" ><a  href="#contact">Contact Us</a></li>
+            <li class="hover:opacity-80 hover:scale-110  cursor-pointer transition-all" ><a  href="#legal">Legal</a></li>
+    </nav>
+</section> 
+</header>
+<main class=" max-w-4xl m-auto  ">
+    <section class="flex flex-col sm:flex-row-reverse w-full min-h-screen  gap-8 justify-center items-center text-center sm:text-left  text-white s">
+        <div class="w-1/2">
+            <img class="w-full" src="img/rocketdab.png" alt="rocket dab image">
+        </div>
+        <div class="flex gap-4 sm:w-1/2 flex-col">
+            <h2 class="text-4xl font-bold sm:text-5xl sm:text-left  p-2">We Boldly Go <span class="text-indigo-300 md:text-nowrap">Where No Rocket</span> Has Gone <span>Before...</span></h2>
+            <p class="text-slate-400 text-xl sm:text-2xl ">We're building rockets for the next century today. From the moon to Mars, Jupiter and beyond...</p>
+            <p class="text-slate-400 text-xl sm:text-2xl">Think Acme Rockets.</p>
+        
+        </div>
+    </section>
+    <hr id="rock" class="mx-auto w-1/2 mb-20">
+    <section  class="mt-1  text-white ">
+        <h1  class="text-center text-5xl font-bold">Our Rockets</h1>
+        <div class="flex flex-col items-center gap-10 mt-12 sm:flex-row">
+            <div class="flex flex-col w-2/3 gap-2 items-center border py-6 px-2 rounded-3xl">
+                <img class="w-1/2" src="img/rocketman.png" alt="rocket man">
+                <p class="text-center text-3xl">Explorer</p>
+                <p class="text-center text-3xl">$</p>
+            </div>
+            <div class="flex flex-col w-2/3 gap-2  items-center border py-6 px-2  rounded-3xl">
+                <img class="w-1/2" src="img/rocketride.png" alt="rocket man">
+                <p class="text-center text-3xl">Explorer</p>
+                <p class="text-center text-3xl">$$</p>
+            </div>
+            <div class="gap-2 flex flex-col w-2/3  items-center border p-4 rounded-3xl py-6 px-2 ">
+                <img class="w-1/2" src="img/rocketlaunch.png" alt="rocket man">
+                <p class="text-center text-3xl">Explorer</p>
+                <p class="text-center text-3xl">$$$</p>
+            </div>
+        </div>
+    </section>
+        <hr id="test" class="mt-32 m-auto mb-20  w-1/2">
+
+   
+</main>
+<footer id="legal">
+    <div class="bg-teal-700 mt-20 text-xl py-4 italic px-4">
+        <div class="max-w-4xl m-auto flex flex-col sm:flex-row justify-between">
+            <div class="mt-1">
+                <ul class>
+                    <li class="mb-1">Acme Rocket-Power Products, Inc.</li>
+                    <li class="mb-1">555 Astro Way</li>
+                    <li class="mb-1">Fairfield, New Jersey 12345-5555</li>
+                    <li class="mb-1">Email: Inquires@acemerockets.com</li>
+                    <li class="mb-1">Phone: (555) 555-5555</li>
+                </ul>
+            </div>
+            <div class="hidden sm:flex mt-1">
+                <ul>
+                    <li class="mb-1">Our Rockets</li>
+                    <li class="mb-1">Testimonials</li>
+                    <li class="mb-1">Contact Us</li>
+                  
+                </ul>
+            </div>
+            <div class="text-right sm:flex mt-1">
+                <ul>
+                    <li class="mb-1" >Copyright © 2022</li>
+                    <li class="mb-1">All Rights Reserved</li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>
